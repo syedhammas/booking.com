@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking.com Clone</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -67,69 +69,266 @@
 
             <h2>Browse by property type</h2>
 
-            <div id="types">
-                <div class="hotels">
-                    <img src="hotel.jpg" alt="">Hotels
+            <div id="types" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="hotels swiper-slide">
+                        <img src="hotel.jpg" alt="">
+                        <p>Hotels</p>
+                    </div>
+                    <div class="apartments swiper-slide">
+                        <img src="apartment.jpg" alt="">
+                        <p>Apartments</p>
+                    </div>
+                    <div class="resorts swiper-slide">
+                        <img src="resort.jpg" alt="">
+                        <p>Resorts</p>
+                    </div>
+                    <div class="resturants swiper-slide">
+                        <img src="res.jpg" alt="">
+                        <p>Resturants</p>
+                    </div>
+                    <div class="resorts swiper-slide">
+                        <img src="resort.jpg" alt="">
+                        <p>Resorts</p>
+                    </div>
+                    <div class="resturants swiper-slide">
+                        <img src="res.jpg" alt="">
+                        <p>Resturants</p>
+                    </div>
                 </div>
-                <div class="apartments">
-                    <img src="apartment.jpg" alt="">Apartments
-                </div>
-                <div class="resorts">
-                    <img src="resort.jpg" alt="">Resorts
-                </div>
-                <div class="resturants">
-                    <img src="res.jpg" alt="">Resturants
-                </div>
-                <div class="resorts">
-                    <img src="resort.jpg" alt="">Resorts
-                </div>
-                <div class="resturants">
-                    <img src="res.jpg" alt="">Resturants
-                </div>
+                <div class="swiper-pagination"></div>
+
             </div>
         </section>
 
         <section class="destinations">
             <h2>Explore Pakistan</h2>
             <p>These popular destinations have a lot of offers</p>
-            <div class="destinations-list">
-                <div class="islamabad">
-                    <img src="isl.jpg" alt="">Islamabad
+            <div id="city" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="islamabad swiper-slide">
+                        <img src="m.jpg" alt="">
+                        <p>Islamabad</p>
+                    </div>
+                    <div class="lahore swiper-slide">
+                        <img src="l.jpg" alt="">
+                        <p>Lahore</p>
+                    </div>
+                    <div class="murree swiper-slide">
+                        <img src="m.jpg" alt="">
+                        <P>Murree</P>
+                    </div>
+                    <div class="islamabad swiper-slide">
+                        <img src="i.jpg" alt="">
+                        <p>karachi</p>
+                    </div>
+                    <div class="murree swiper-slide">
+                        <img src="murree.jpg" alt="">
+                        <p>Murree</p>
+                    </div>
+                    <div class="lahore swiper-slide">
+                        <img src="isl.jpg" alt="">
+                        <p>Islamabad</p>
+                    </div>
                 </div>
-                <div class="lahore">
-                    <img src="lahore.jpg" alt="">Lahore
-                </div>
-                <div class="murree">
-                    <img src="murree.jpg" alt="">Murree
-                </div>
-                <div class="karachi">
-                    <img src="isl.jpg" alt="">karachi
-                </div>
-                <div class="murree">
-                    <img src="murree.jpg" alt="">Murree
-                </div>
-                <div class="karachi">
-                    <img src="isl.jpg" alt="">Islamabad
-                </div>
-
+                <div class="swiper-pagination"></div>
             </div>
+
         </section>
 
         <section class="unique-properties">
             <h2>Stay at our top unique properties</h2>
             <P>From castles and villas from boat and igloos, we have it all</P>
-            <div class="properties">
-                <div>Property 1</div>
-                <div>Property 2</div>
-                <div>Property 3</div>
+            <div id="properties" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="farm-house1 swiper-slide">
+                        <img src="1.jpg" alt="">
+                        <h3>Gyttja</h3>
+                        <p>Finland, Lillandet</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.4</span>
+                                <span class="rating-text">Wonderful. (18 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="2.jpg" alt="">
+                        <h3>Waldschenenke</h3>
+                        <p>Germany, Neuruppin</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.8</span>
+                                <span class="rating-text">Excellent. (800 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="3.jpg" alt="">
+                        <h3>Harbor View</h3>
+                        <p>United Kingdom,Isle of Skye </p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.5</span>
+                                <span class="rating-text">Wonderful. (804 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="4.jpg" alt="">
+                        <h3>Casa Rural</h3>
+                        <p>Spain ,Valera</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.9</span>
+                                <span class="rating-text">Wonderful. (330 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="5.jpg" alt="">
+                        <h3>Gyttja</h3>
+                        <p>Finland, Lillandet</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.4</span>
+                                <span class="rating-text">Wonderful. (180 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="6.jpg" alt="">
+                        <h3>Gyttja</h3>
+                        <p>Finland, Lillandet</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.4</span>
+                                <span class="rating-text">Wonderful. (121 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
         <section class="homes-guest">
             <h1>Homes Guests Love</h1>
+            <div id="properties" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="farm-house1 swiper-slide">
+                        <img src="7.jpg" alt="">
+                        <h3>The Tower of Londen </h3>
+                        <p>United Kingdom, London</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.9</span>
+                                <span class="rating-text">Wonderful. (180 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="8.jpg" alt="">
+                        <h3>Orient places Apparments</h3>
+                        <p>Madrid City center,Spain </p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.9</span>
+                                <span class="rating-text">Excellent. (507 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="9.jpg" alt="">
+                        <h3>Aparthotel Stare Miasto</h3>
+                        <p>Los Santos, </p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">8.4</span>
+                                <span class="rating-text">Wonderful. (804 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="10.jpg" alt="">
+                        <h3>Casa Rural</h3>
+                        <p>Spain ,Valera</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">8.3</span>
+                                <span class="rating-text">Excellent. (306 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="11.jpg" alt="">
+                        <h3>Hotels</h3>
+                        <p>Finland, Lillandet</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.4</span>
+                                <span class="rating-text">Wonderful. (180 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="farm-house1 swiper-slide">
+                        <img src="12.jpg" alt="">
+                        <h3>Gyttja</h3>
+                        <p>Finland, Lillandet</p>
+
+                        <div id="rating">
+                            <div id="property-rating">
+                                <span class="rating-score">9.6</span>
+                                <span class="rating-text">Wonderful. (121 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
         </section>
     </main>
 
 </body>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
 
 </html>

@@ -141,7 +141,7 @@ header {
  
 .offers-section .offer {
     color: #ffffff;
-    background-image: url("main.jpg");
+    background-image: url("l.jpg");
     background-repeat: no-repeat;
     background-size:  cover; 
     border-radius: 20px;
@@ -207,48 +207,173 @@ header {
 padding:3px;
 }
 
-.destinations .destinations-list .islamabad >img {
+.destinations #city {
+    display: flex;
+    padding-top: 10px;
+    gap: 0.3rem;
+  
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-wrapper {
+    margin-bottom: 30px;
+  }
+
+.destinations #city .islamabad >img {
     width: 300px;
     height: 200px;
     border-radius: 20px;
 }
-.destinations .destinations-list .lahore >img {
+.destinations #city .lahore >img {
     width: 300px;
     height: 200px;
     border-radius: 20px;
+    
 }
-.destinations .destinations-list .murree >img {
+.destinations #city .murree >img {
     width: 300px;
     height: 200px;
     border-radius: 20px;
 }
 
-.destinations .destinations-list .karachi >img {
+.destinations #city .karachi >img {
     width: 300px;
     height: 200px;
     border-radius: 15px;
 }
-
-
-
-
-
 .destinations {
     padding: 20px 230px;
     
     width: 100%;
-} 
+}
+
+
+
+
+
+
+
+
+
+
+.unique-properties #properties {
+    display: flex;
+   
+   
+    padding-top: 10px;
+}
+
+
 .unique-properties {
     padding: 20px 230px;
 }
+.unique-properties #properties .farm-house1 >img{
+    width: 319px;
+    height: 300px;
+    border-radius: 10px;
 
-.destinations-list {
-    display: flex;
-    gap: 0.3rem;
-    text-align: center;
-    overflow: auto;
 }
+.unique-properties #properties .farm-house1 {
+    width: 402px;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 221, 221);
+    height: 420px;
+}
+.unique-properties #properties .farm-house1 >p ,h3 ,.rating-text {
+    color: #626262;
+    padding: 5px;
+    10
+}
+
+
+.unique-properties #rating #property-rating span.rating-score {
+    border: 3px solid #d3cccc;
+    background-color: #133287;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(70, 70, 70);
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 5px;
+  
+}
+.unique-properties #properties .farm-house1 {
+    width: 402px;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 221, 221);
+    height: 420px;
+}
+
+
+
+
+
+
+
 .homes-guest {
 padding: 20px 230px;
 
+}
+.homes-guest #properties {
+    display: flex;
+ gap: 20px   ;
+   
+    padding-top: 20px;
+}
+
+
+.homes-guest #properties .farm-house1 >img{
+    width: 319px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.homes-guest #properties .farm-house1 {
+    width: 402px;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 221, 221);
+    height: 420px;
+}
+.homes-guest #properties .farm-house1 >p ,h3 ,.rating-text {
+    color: #626262;
+    padding: 5px;
+    
+    font-size: 12px;
+}
+
+
+.homes-guest #rating #property-rating span.rating-score {
+    border: 3px solid #d3cccc;
+    background-color: #133287;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(70, 70, 70);
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 2px 7px;
+    border-radius: 5px;
+  
+}
+.homes-guest #properties .farm-house1 {
+    width: 402px;
+    border-radius: 15px;
+    border: 1px solid rgb(221, 221, 221);
+    height: 420px;
 }
