@@ -67,13 +67,17 @@ header {
 
     
 }
-#container .catagaries >ul >li >a:hover {
+
+#container .catagaries >ul >li >a {
    
-    margin: 5px;
     padding: 10px;
-    border: 3px solid #ffffff;
+    border: 3px solid transparent;
     border-radius: 20px;
     font-size: 12px;
+}
+
+#container .catagaries >ul >li >a:hover {
+    border: 3px solid #ffffff;
 }
 
 #container .catagaries >ul >li >a.button {
@@ -187,29 +191,12 @@ header {
 }
 
 
-.property-types #types .hotels img {
+.property-types #types .property-type img {
     border-radius: 15px;
-    width: 300px;
-    height: 200px;
-}
-.property-types #types .apartments img {
-    border-radius: 15px;
-    width: 300px;
+    width: 100%;
     height: 200px;
 }
 
-.property-types #types .resorts img {
-    border-radius: 15px;
-    width: 300px;
-    height: 200px;
-}
-
-.property-types #types .resturants img {
-    border-radius: 15px;
-    width: 300px;  
-    height: 200px;
-    object-fit: cover; 
-}
 
 #types img{
 padding:3px;
@@ -245,42 +232,17 @@ padding:3px;
     margin-bottom: 40px;
   }
 
-.destinations #city .islamabad >img {
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
-.destinations #city .lahore >img {
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-    
-}
-.destinations #city .murree >img {
-    width: 300px;
+.destinations #city .cities >img {
+    width: 100%;
     height: 200px;
     border-radius: 20px;
 }
 
-.destinations #city .karachi >img {
-    width: 300px;
-    height: 200px;
-    border-radius: 15px;
-}
 .destinations {
     padding: 20px 230px;
     
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
 
 .unique-properties #properties {
     display: flex;
@@ -294,7 +256,7 @@ padding:3px;
     padding: 20px 230px;
 }
 .unique-properties #properties .farm-house1 >img{
-    width: 319px;
+    width: 100%;
     height: 225px;
     border-radius: 10px;
 
@@ -349,7 +311,7 @@ padding: 20px 230px;
 
 
 .homes-guest #properties .farm-house1 >img{
-    width: 319px;
+    width: 100%;
     height: 225px;
     border-radius: 10px;
 
@@ -500,7 +462,7 @@ footer {
 
 }
 
-.coloumn .one >p,.two >p, .three >p, .four >p {
+.coloumn .values >p {
     color: #626262;
 }
 #butn ul li a.button:hover {
