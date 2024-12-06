@@ -11,9 +11,9 @@ body {
     background-color: #f7f7f7;
     
 }
-.container {
+#container {
     padding: 20px 230px;
-    background-color: rgb(60 148 155);
+    background-color: rgb(0 49 139);
     height: 385px;
 }
 header {
@@ -21,18 +21,18 @@ header {
     height: 50px;
 }
 
-.container header .navbar .nav-links > ul {
+#container header .navbar .nav-links > ul {
     display: flex;
     gap: 20px;
     align-items: center;
     list-style: none;
 }
-.container header .navbar .nav-links > ul > li > a {
+#container header .navbar .nav-links > ul > li > a {
     color: #ffffff;
     
 
 }
-.container header .navbar .logo {
+#container header .navbar .logo {
     font-size: 30px;
     font-weight: bold;
 }
@@ -58,7 +58,7 @@ header {
     border-radius: 5px;
     color: #000 !important;
 }
-.container .catagaries >ul {
+#container .catagaries >ul {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -67,7 +67,7 @@ header {
 
     
 }
-.container .catagaries >ul >li >a:hover {
+#container .catagaries >ul >li >a:hover {
    
     margin: 5px;
     padding: 10px;
@@ -76,7 +76,7 @@ header {
     font-size: 12px;
 }
 
-.container .catagaries >ul >li >a.button {
+#container .catagaries >ul >li >a.button {
     color: #ffffff;
     text-decoration: none;
 }
@@ -95,6 +95,7 @@ header {
 }
 .search-section .search-bar {
     padding-top: 10px;
+    display: flex;
 }
 
 
@@ -108,20 +109,23 @@ header {
 }
 
 .search-bar input, .search-bar button {
-    margin: 5px;
+
     padding: 10px;
-    border: 2px solid #ffb006;
+    border: 3px solid #ffb006;
+    text-align: center;
 }
 
 .search-bar button {
     color: #ffffff;
     background-color: #133287;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .search-section .search-bar >input {
-    font-size: 30px;
+    font-size: 23px;
     width: 400px;
+    height: 70px;
+    outline: none;
 }
 
 .swiper {
@@ -135,13 +139,14 @@ header {
     padding: 20px 230px;
 }
 
-.offers-section .offer >button {
-    background-color: #0044ff;
+.offers-section #offer >button {
+    background-color: #02227a;
     color: #ffffff;
     margin: 25px;
+    padding: 3px;
 }
  
-.offers-section .offer {
+.offers-section #offer {
     color: #ffffff;
     background-image: url("12.jpg");
     background-repeat: no-repeat;
@@ -151,11 +156,11 @@ header {
     padding-top: 4px;
     object-fit: cover;
 }
-.offers-section .offer >p {
+.offers-section #offer >p {
     margin-top: 15px;
     margin-left: 15px;
 }
-.offers-section .offer >p strong {
+.offers-section #offer >p strong {
     margin-left: 5px;
 
 }
@@ -175,27 +180,28 @@ header {
 
 
 .property-types {
-    margin: auto;
+    padding: 20px 230px;
     overflow-x: auto; 
-    justify-content: center; 
-    width:75%;
+   width: 100%; 
+   
 }
 
 
 .property-types #types .hotels img {
     border-radius: 15px;
     width: 300px;
+    height: 200px;
 }
 .property-types #types .apartments img {
     border-radius: 15px;
     width: 300px;
-
+    height: 200px;
 }
 
 .property-types #types .resorts img {
     border-radius: 15px;
     width: 300px;
-
+    height: 200px;
 }
 
 .property-types #types .resturants img {
@@ -236,7 +242,7 @@ padding:3px;
     object-fit: cover;
   }
   .swiper-wrapper {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
 .destinations #city .islamabad >img {
@@ -306,7 +312,7 @@ padding:3px;
 }
 
 
-.unique-properties #rating #property-rating span.rating-score {
+.unique-properties .rating #property-rating span.rating-score {
     border: 3px solid #d3cccc;
     background-color: #133287;
     box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(70, 70, 70);
@@ -362,7 +368,7 @@ padding: 20px 230px;
 }
 
 
-.homes-guest #rating #property-rating span.rating-score {
+.homes-guest .rating #property-rating span.rating-score {
     border: 3px solid #d3cccc;
     background-color: #133287;
     box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(70, 70, 70);
@@ -382,12 +388,11 @@ padding: 20px 230px;
 
 
 
-#next-trip {
-    padding: 20px 230px;
-    
-}
 
-#vacations >h4 {
+    
+
+
+.vacations >h4 {
     width: 570px;
 }
 
@@ -395,7 +400,7 @@ padding: 20px 230px;
 
 
 
-#vacations {
+.vacations {
     background-image: url(18.jpg);
     height: 460px;
     width: 600px;
@@ -408,13 +413,18 @@ padding: 20px 230px;
    
 }
 
-#next-trip  #trips .suggestions img {
+.next-trip {
+    padding: 20px 230px;
+}
+
+
+.next-trip  #trips .suggestions img {
     height: 354px;
     width: 300px;
     object-fit: cover;
 
 }
-#next-trip  #trips{
+.next-trip  #trips{
     display:flex;
     gap: 20px;
     overflow-x: auto;
@@ -422,24 +432,22 @@ padding: 20px 230px;
 }
 
 
-s.wiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper #vacation {
-    gap: 20px;
-    width: 172px ;
-}
+
+
 .travel{
     padding: 20px 230px;
  
    
 }
 
-.travel #sign-in {
+.travel .sign-in {
   
     height: 110px;
     padding: 10px;
 
 
 }
-.travel #genious img {
+.travel .genious img {
     height: 70px;
     width: 70px;
     margin-top: 20px;
@@ -455,11 +463,12 @@ s.wiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper #vacat
 
 }
 
-.travel #traveling #sign-in button {
-font-size: 15px;
+.travel #traveling .sign-in button {
+    font-size: 15px;
     background-color: #133287;
     color: #ffffff;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(70, 70, 70);
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(150, 150, 150);
+    padding: 3px;
 }
 
 
@@ -467,27 +476,36 @@ footer {
     padding: 20px 230px;
 }
 
-#butn >ul {
-    display: flex;
-    gap: 34px;
-    list-style-type: none;
-    padding-top: 20px;
-    
-}
-#butn .button{
-    text-decoration: none;
-    border: 2px solid rgb(1, 54, 201);
-    border-radius: 20px;
-    padding: 5px;
-    
-}
-#coloumn {
-    display: grid;
-    padding-top: 30px;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
 
+#butn ul {
+   display: flex;
+    list-style-type: none;
+    gap: 20px;
 }
+
+#butn ul li a.button {
+    text-decoration: none;
+}
+
 .x{
     display: flex;
     gap: 10px;
+    margin-top: 10px;
+}
+
+.coloumn {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+
+}
+
+.coloumn .one >p,.two >p, .three >p, .four >p {
+    color: #626262;
+}
+#butn ul li a.button:hover {
+    text-decoration: none;
+    border: 2px solid rgb(0, 48, 180);
+    border-radius: 20px;
+    padding: 5px;
 }
