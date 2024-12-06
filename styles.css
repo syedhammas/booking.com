@@ -152,7 +152,7 @@ header {
  
 .offers-section #offer {
     color: #ffffff;
-    background-image: url("12.jpg");
+    background-image: url("/images/12.jpg");
     background-repeat: no-repeat;
     background-size:  cover; 
     border-radius: 20px;
@@ -363,7 +363,7 @@ padding: 20px 230px;
 
 
 .vacations {
-    background-image: url(18.jpg);
+    background-image: url(/images/18.jpg);
     height: 460px;
     width: 600px;
     background-repeat: no-repeat;
